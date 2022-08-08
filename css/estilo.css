@@ -206,6 +206,7 @@ body{
     margin-top: 120px;
     width: 300px;
     font-size: 17px;
+    line-height: 25px;
 }
 
 
@@ -243,6 +244,7 @@ body{
     margin-top: 120px;
     width: 300px;
     font-size: 17px;
+    line-height: 25px;
 }
 
 
@@ -280,6 +282,7 @@ body{
     margin-top: 120px;
     width: 300px;
     font-size: 17px;
+    line-height: 25px;
 }
 
 
@@ -404,10 +407,17 @@ body{
 @media (max-width: 1440px){
     .title{
         margin-left: 170px;
+        margin-top: 150px;
     }
 
     .description{
+        margin-top: -50px;
         margin-left: 170px;
+    }
+
+    .seccionEstrellas{
+        margin-top: -100px;
+        margin-left: 770px;
     }
     
     .perfiles{
