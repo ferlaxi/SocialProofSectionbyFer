@@ -11,4 +11,4 @@
 
 ## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
-- Live Site URL: [Social Proof section]()🌐
+- Live Site URL: [Social Proof section](https://ferlaxi.github.io/SocialProofSectionbyFer/)🌐
