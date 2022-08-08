@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    position: relative;
+    overflow: hidden;
+}
+
+.bgtop_cel{
+    display: none;
+}
+.bgbot_cel{
+    display: none;
+}
+
+.bgtop{
+    position: absolute;
+    margin-left: 150px;
+}
+.bgbot{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 750px;
+}
+
+.title{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 180px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+}
+.description{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    top: 390px;
+    margin-left: 300px;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(303, 10%, 53%);
+}
+
+
+
+
+.seccionEstrellas{
+    width: 700px;
+    height: 300px;
+    margin-left: 50%;
+    top:100px;
+    position: relative;
+}
+
+.seccionEstrellas .star1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 100px;
+    font-family: 'League Spartan', sans-serif;
+    padding-left: 180px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+}
+
+.seccionEstrellas .star1 .cincoEstrellas{
+    width: 110px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -130px;
+}
+
+
+
+.seccionEstrellas .star2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    margin-top: 180px;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin-left: 50px;
+    padding-left: 155px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+}
+
+.seccionEstrellas .star2 .cincoEstrellas2{
+    width: 110px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -120px;
+}
+
+
+
+.seccionEstrellas .star3{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    margin-top: 260px;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: hsl(300, 24%, 96%);
+    padding-left: 155px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+}
+
+.seccionEstrellas .star3 .cincoEstrellas3{
+    width: 110px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -125px;
+}
+
+
+
+/* Perfiles barras*/
+.perfiles{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    width: 700px;
+    height: 200px;
+}
+
+.perfiles .perfil1{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-left: 290px;
+}
+.perfiles .perfil2{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-left: 720px;
+    margin-top: 30px;
+}
+.perfiles .perfil3{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-left: 1150px;
+    margin-top: 60px;
+}
+
+
+/* 3 tarjetas */
+
+.perfil1{
+    position: relative;
+}
+.colton{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 43px;
+    position: absolute;
+}
+.name_colton{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.colton_description{
+    position: absolute;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+.text_colton{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 40px;
+    margin-top: 120px;
+    width: 300px;
+    font-size: 17px;
+}
+
+
+.perfil2{
+    position: relative;
+}
+.irene{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 43px;
+    position: absolute;
+}
+.name_irene{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.irene_description{
+    position: absolute;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+.text_irene{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 40px;
+    margin-top: 120px;
+    width: 300px;
+    font-size: 17px;
+}
+
+
+.perfil3{
+    position: relative;
+}
+.anne{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 43px;
+    position: absolute;
+}
+.name_anne{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.anne_description{
+    position: absolute;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+.text_anne{
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 40px;
+    margin-top: 120px;
+    width: 300px;
+    font-size: 17px;
+}
+
+
+/* Responsive */
+@media (max-width: 360px){
+
+    /* background */
+    .bgtop{
+        display: none;
+    }
+    .bgbot{
+        display: none;
+    }
+
+    .bgtop_cel{
+        display: block;
+        position: absolute;
+    }
+
+    .bgbot_cel{
+        display: block;
+        position: absolute;
+        margin-top: 700px;
+    }
+
+    .title{
+        margin: 15px;
+        margin-left: 80px;
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .description{
+        margin-left: 30px;
+        margin-top: -290px;
+        text-align: center;
+        width: 300px;
+    }
+    
+
+    .seccionEstrellas{
+        width: 0px;
+    }
+    .seccionEstrellas .star1{
+        margin-left: -150px;
+        width: 300px;
+        height: 70px;
+        text-align: center;
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+
+    .seccionEstrellas .star1 .cincoEstrellas{
+        margin-left: 30px;
+        margin-bottom:50px;
+    }
+
+    .seccionEstrellas .star2{
+        margin-left: -150px;
+        width: 300px;
+        height: 70px;
+        text-align: center;
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+    
+    .seccionEstrellas .star2 .cincoEstrellas2{
+        margin-left: 30px;
+        margin-bottom:50px;
+    }
+    
+    .seccionEstrellas .star3{
+        margin-left: -150px;
+        width: 300px;
+        height: 70px;
+        text-align: center;
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+    
+    .seccionEstrellas .star3 .cincoEstrellas3{
+        margin-left: 30px;
+        margin-bottom:50px;
+    }
+
+
+    /* perfiles */
+    .perfiles{
+        margin-left: -280px;
+        width: 0px;
+    }
+
+    .perfiles .perfil1{
+        width: 340px;
+    }
+
+    .text_colton{
+        margin-left: 30px;
+    }
+
+    .perfiles .perfil2{
+        margin-left: 290px;
+        width: 340px;
+        margin-top: 270px;
+    }
+    .text_irene{
+        margin-left: 30px;
+    }
+
+    .perfiles .perfil3{
+        margin-left: 290px;
+        width: 340px;
+        margin-top: 540px;
+    }
+    .text_anne{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1440px){
+    .title{
+        margin-left: 170px;
+    }
+
+    .description{
+        margin-left: 170px;
+    }
+    
+    .perfiles{
+        margin-left: -230px;
+        width: 0px;
+    }
+}
